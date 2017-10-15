@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/gamelose1_1"
+        android:duration="1000"/>
+    
+    <item
+        android:drawable="@drawable/gamelose1_2"
+        android:duration="1000"/>
+    
+    <item
+        android:drawable="@drawable/gamelose1_3"
+        android:duration="1000"/>
+    
+    <item
+        android:drawable="@drawable/gamelose1_4"
+        android:duration="2000"/>
+
+</animation-list>

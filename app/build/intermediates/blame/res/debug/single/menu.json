@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\menu\\settings.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\menu\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\menu\\high_score.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\menu\\high_score.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\menu\\help.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\menu\\help.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tab1.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\menu\\tab1.xml"
+    }
+]

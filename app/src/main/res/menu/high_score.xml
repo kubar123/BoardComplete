@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.JakubRybicki.assignment.HighScore" >
+
+    <item
+        android:id="@+id/activityPlay"
+        android:showAsAction="never"
+        android:title="Back"/>
+<!--     <item -->
+<!--         android:id="@+id/activitySetting" -->
+<!--         android:showAsAction="never" -->
+<!--         android:title="Settings"/> -->
+	
+<!-- 	<item -->
+<!-- 	    android:id="@+id/activityHelp" -->
+<!-- 	    android:showAsAction="never" -->
+<!-- 	    android:title="Help"/> -->
+
+</menu>

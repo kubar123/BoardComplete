@@ -1,0 +1,4 @@
+#Mon Oct 16 08:13:44 AEDT 2017
+base.0=C\:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

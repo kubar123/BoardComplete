@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\assignmentJakub.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* Testing.pdf
+* debug\
+* debug\2\
+* debug\2\Logic - column==0 is never entered.PNG
+* debug\2\game is blank when started. Forgot to call 'newGame' method when the game is started.png
+* debug\2\items can be clicked when game lost. Restart buttons dont work. - fixed by setting the iAdapter after setting the grid array.png
+* debug\2\only 3 squares are marked randomly - Using .length, which starts at 1, not 0. Fixed by adding .length-1;.png
+* debug\2\performance\
+* debug\2\performance\One.PNG
+* debug\2\random generator does not work correctly - makes an uncomplete set.PNG
+* debug\2\timer is cancelled before it is started. - fixed by adding if(timerItem!=null).PNG
+* debug\debuggin-Surface-Pro.docx
+* debug\debuggin.docx
+* debug\final\
+* debug\final\debug\
+* debug\final\debug\first time app runs, timer is not reset.JPG
+* debug\final\debug\many additional highscores added - leftover debug item - adds highscore on click of restart.JPG
+* debug\final\debug\null pointer if no highscores exist.JPG
+* debug\final\debugging & profiling.docx
+* debug\final\debugging2.docx
+* debug\final\profiling\
+* debug\final\profiling\1.JPG
+* debug\final\profiling\2.JPG
+* debug\final\profiling\3.JPG
+* debug\final\profiling\4.JPG
+* debug\final\profiling\5.JPG
+* debug\final\profiling\click long click time.JPG
+* debug\final\profiling\playing full game.JPG
+* debug\final\testing.docx
+* debug\help menu click listener only works once, once disposed, help is reset.PNG
+* debug\image too big - causing our of memory errors on device.PNG
+* debug\missing branchets for method call.PNG
+* debug\new\
+* debug\new\debugging.docx
+* debug\new\debugging2.docx
+* debug\new\testing-WIN-5M22K1NPIGC.docx
+* debug\new\testing.docx
+* debug\profiling\
+* debug\profiling\2.PNG
+* debug\profiling\3.PNG
+* debug\profiling\4 dialog dismiss uses a lot of cpu time.PNG
+* debug\profiling\5 sound effects & list item click listener.PNG
+* debug\profiling\one.PNG
+* debug\syntax error - writing string over a  new line.PNG
+* debug\syntax errror - incorrect variable name.PNG
+* debug\theme was set to 999, even if it was missing.PNG
+* debugging and profiling.pdf
+* ic_launcher-web.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* blue.PNG => blue.png
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* green.PNG => green.png
+* grey.PNG => grey.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

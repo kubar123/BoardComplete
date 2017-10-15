@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab1.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\layout\\activity_tab1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_high_score.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\assignmentJakub-complete\\app\\src\\main\\res\\layout\\activity_high_score.xml"
+    }
+]

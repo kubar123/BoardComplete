@@ -1,0 +1,558 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.JakubRybicki.assignment.MainActivity" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                   	android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:id="@+id/TableRow07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="1."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab1_1Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="2."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab1_2Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="3."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab1_3Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView08"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="4."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab1_4Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="5."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab1_5Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:id="@+id/TableRow11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView25"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="1."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab2_1Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView29"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="2."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab2_2Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="3."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab2_3Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView15"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="4."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab2_4Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView17"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="5."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab2_5Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+					android:orientation="horizontal"
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TableRow
+                            android:id="@+id/TableRow19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView41"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="1."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab3_1Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView45"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="2."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab3_2Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView38"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="3."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab3_3Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="4."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab3_4Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/TableRow23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/border1" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="5."
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tab3_5Score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:text="--"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

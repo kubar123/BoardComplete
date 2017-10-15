@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.JakubRybicki.assignment.MainActivity" >
+
+    <!-- <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+     -->
+    <!-- <item
+        android:id="@+id/activityPlay"
+        android:showAsAction="never"
+        android:title="Play game"/> -->
+    <item
+        android:id="@+id/activitySetting"
+        android:showAsAction="never"
+        android:title="Settings"/>
+	<item
+	    android:id="@+id/activityHiScore"
+	    android:showAsAction="never"
+	    android:title="High scores"/>
+	<item
+	    android:id="@+id/activityHelp"
+	    android:showAsAction="never"
+	    android:title="Help"/>
+</menu>
